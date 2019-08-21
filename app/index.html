@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.slim.js" integrity="sha256-RtMTraB5gGlLER0FkKBcaXCmZCQCxkKS/dXm7MSEoEY=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <title>Chat Playground</title>
+</head>
+
+<body>
+  <div id="chat-app">
+    <div class="chat-app__body">
+      <div class="chat-app__message chat-app__message--in">Chatbot: Hi my friend, good luck</div>
+      <div class="chat-app__message chat-app__message--out">Thank you!</div>
+    </div>
+    <div class="chat-app__controls">
+      <input class="input chat-app__controls__name" type="text" placeholder="Guest">
+      <input class="input chat-app__controls__message" type="text" placeholder="Message">
+      <input class="button button--primary chat-app__controls__send" type="button" value="Send">
+    </div>
+  </div>
+
+  <script src="chat.js"></script>
+</body>
+
+</html>
