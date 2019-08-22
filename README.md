@@ -3,5 +3,5 @@
 ## How to run?
 
 * Clone the master
-* **npm i**
+* **npm i** or **npm install**
 * **npm start**
