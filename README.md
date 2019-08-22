@@ -2,6 +2,11 @@
 
 ## How to run?
 
-* Clone the master
-* **npm i** or **npm install**
-* **npm start**
+```bash
+git clone https://github.com/devmetal/playground.git
+cd playground
+npm install
+npm start
+```
+It will automatically starts a http server on 8080 port, where just static files are served.
+The socket.io-client comes from a cdn
