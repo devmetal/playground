@@ -6,7 +6,7 @@ const ui = {
 };
 
 const config = {
-  server: 'http://185.13.90.140:8081/',
+  server: 'https://185.13.90.140:8081/',
 };
 
 const socket = window.io(config.server);
